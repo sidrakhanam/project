@@ -1,0 +1,209 @@
+
+.white{
+    background: rgb(0,0,0);
+background: linear-gradient(150deg, rgba(0,0,0,0) 66%, rgba(221,160,221,1) 100%);
+    height: 800px;
+    width: 100%;
+}
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.logo2{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+.heading{
+    margin-left: 100px;
+    margin-top: 4px;
+    color: darkmagenta;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.navdiv{
+    display: inline-flex;
+   justify-content: space-between;
+    margin-top: 30px;
+}
+.feature{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    margin-left: 6px;
+    margin-top: 20px;
+}
+.li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 25px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+.button{
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 100px;
+    height: 35px;
+    width: 130px;
+    text-decoration: none;
+    margin-top: 4px;
+    border-radius: 6px;
+}
+.about{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    margin-left: 800px;
+    color: black;
+    margin-top: 30px;
+}
+.a{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.image{
+    margin-top: 100px;
+    margin-left: 800px;
+    height: 400px;
+    width: 600px;
+}
+.p{
+    margin-top: -350px;
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    width: 550px;
+    font-weight: 700;
+    color: rgb(66, 9, 119);
+}
+.p2{
+    margin-top: -20px;
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    width: 550px;
+    font-weight: 700;
+    color: rgba(221,160,221,1) ;
+}
+.para{
+    width: 400px;
+    margin-left: 200px;
+}
+.buton{
+    margin-left: 200px;
+    height: 45px;
+    border: solid rgb(187, 56, 220);
+    width: 160px;
+    background-color: rgb(232, 89, 229);
+color: white;
+border-radius: 4px;
+}
+
+
+/* Media Queries for Responsive Design */
+
+/* @media screen and (max-width: 768px) {
+    .white {
+        height: auto;
+    }
+
+    .navdiv {
+        justify-content: center;
+    }
+
+    .navdiv .feature {
+        margin: 0 10px;
+    }
+
+    .about {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .image {
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .p,
+    .p2 {
+        margin-left: 20px;
+        width: auto;
+        font-size: 30px;
+    }
+
+    .para {
+        margin-left: 20px;
+        width: auto;
+    }
+
+    .buton {
+        margin: 20px auto;
+    }
+} */
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .navdiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navdiv .feature {
+        margin: 10px 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo2 {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .heading {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .image {
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    .p,
+    .p2 {
+        margin-left: 10px;
+        width: auto;
+        font-size: 30px;
+    }
+
+    .para {
+        margin-left: 10px;
+        width: auto;
+    }
+
+    .buton {
+        margin: 20px auto;
+    }
+}
